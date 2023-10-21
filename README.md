@@ -1,5 +1,10 @@
 # C++プロジェクト用の汎用的なMakefile
 
+## 動作確認済み環境
+- OS : Ubuntu 22.04.3
+- g++ : version 11.4.0
+- make : GNU Make 4.3
+
 ## 使い方
 - 初期化
   
