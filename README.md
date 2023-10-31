@@ -10,6 +10,7 @@
   
   Makefileが置かれているディレクトリに
   inc, obj, srcディレクトリが作られる
+  gitのローカルリポジトリを初期化し、.gitignoreとMakefileを登録する
 
   ```make init```
 - ビルド
