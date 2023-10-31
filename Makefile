@@ -30,3 +30,7 @@ init:
 	mkdir inc
 	mkdir obj
 	mkdir src
+	git init
+	git add .gitignore
+	git add Makefile
+	git commit -m "Initial commit with .gitignore, Makefile"
