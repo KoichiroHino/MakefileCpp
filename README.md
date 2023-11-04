@@ -8,8 +8,8 @@
 ## 使い方
 - 初期化
   
-  Makefileが置かれているディレクトリに
-  inc, obj, srcディレクトリが作られる
+  Makefileが置かれているディレクトリにinc, obj, srcディレクトリが作られる
+  
   gitのローカルリポジトリを初期化し、.gitignoreとMakefileを登録する
 
   ```make init```
