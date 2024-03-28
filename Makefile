@@ -27,14 +27,11 @@ rebuild: clean all
 
 .PHONY: init
 init: 
-	mkdir inc
-	mkdir obj
-	mkdir src
-	touch inc/.gitkeep
-	touch src/.gitkeep
 	git init
-	git add .gitignore
-	git add Makefile
-	git add inc/.gitkeep
-	git add src/.gitkeep
-	git commit -m "Initial commit with .gitignore, Makefile"
+	git commit --allow-empty -m "Initial empty commit"
+	mkdir -p inc
+	mkdir -p obj
+	mkdir -p src
+	touch inc/.gitkeep src/.gitkeep
+	git add .
+	git commit -m "commit for .gitignore, Makefile, README and some directories"
